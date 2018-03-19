@@ -80,6 +80,7 @@ CREATE TABLE IF NOT EXISTS `groupepassager` (
   `COMPTEUR` int(11) DEFAULT '0',
   `KMS` int(11) DEFAULT '0',
   `DATE_CONDUCTEUR` date DEFAULT NULL,
+  `ECONOMIE` int(11) DEFAULT '0'
   PRIMARY KEY (`ID`),
   UNIQUE KEY `indexGroupePassager` (`ID_GROUPE`,`ID_PASSAGER`),
   KEY `FK_groupePassager_passager` (`ID_PASSAGER`)
