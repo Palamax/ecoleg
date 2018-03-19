@@ -1,0 +1,13 @@
+RewriteEngine on
+ErrorDocument 403 /erreur
+ErrorDocument 404 /erreur
+ErrorDocument 500 /erreur
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+
+	RewriteRule ^(.*)$ index.php?url=$1 [PT,L]
+</IfModule>

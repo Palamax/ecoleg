@@ -1,0 +1,50 @@
+.margin-auto{
+	margin:auto;
+}
+
+
+/* 
+############################################
+#				MENU NAV BAR   			   #
+############################################
+
+*/
+
+.navbar-inverse-color{
+	background-color:#284d27;
+}
+
+.jumbotron{
+	height: 100px;
+	margin: 0 0 15px 0px;
+	padding-top: 1px;
+	background-color:#d0e3ad;
+}
+
+.jumbotron h1{
+	font-size:24px;
+}
+
+.jumbotron p{
+	font-size:12px;
+	text-decoration: italic;
+}
+
+.form-control-inline{
+	display:inline;
+	width:45%;
+}
+
+.page{
+	background-color:#f3fae0;
+}
+
+.login{
+	width: 500px;
+	margin-top: 100px;
+	border-width:2px;
+	border-style:solid;
+	border-color:grey;
+	padding:20px; 
+	border-radius: 10px;
+}
